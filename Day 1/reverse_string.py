@@ -7,7 +7,10 @@ print(reverse_string("Andela"))
 print(reverse_string("Andela Bootcamp test"))
 #comment
 
-ef reverse_x(s):
+def swap(list_,i,j):
+    list_[i], list_[j] = list_[j], list_[i]
+
+def reverse_x(s):
     s = list(s)
     length = len(s)
     for i in range(length//2):
@@ -15,6 +18,4 @@ ef reverse_x(s):
                 
     return s
 print (reverse_x("Denis"))
-
-
 
